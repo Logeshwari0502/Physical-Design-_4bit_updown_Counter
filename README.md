@@ -73,6 +73,9 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 
 • add fast.lib with a label Fast or any identifier of your own.
 
+![WhatsApp Image 2025-11-09 at 18 28 51_a4116f12](https://github.com/user-attachments/assets/38a16c2b-07f0-4bf3-bec4-b2a6cd5d8841)
+
+
 ### Fig.2 Add fast Library set
 
 • Adding RC Corners can also be done in a similar process. The temperature value can be found under the corresponding liberty file. Also, cap table and RC Tech files can be added from Foundry where available.
@@ -81,17 +84,29 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 
 • Delay Corners are formed by combining Library Sets with RC Corners.
 
+![WhatsApp Image 2025-11-09 at 18 29 44_557e285f](https://github.com/user-attachments/assets/c678e540-47ee-4659-8898-3222c41b5463)
+
+
 ### Fig.4 Add Delay corner Max_delay & Min_delay
 
 • Similarly, SDC can be read under the MMMC Object of “Constraints”.
+
+![WhatsApp Image 2025-11-09 at 18 37 15_13dce6da](https://github.com/user-attachments/assets/58d63d53-df6d-405f-ac67-24e927c0496c)
+
 
 ### Fig.5 SDC Constraint file
 
 • Analysis Views are formed from combinations of SDC and Delay Corner.
 
+![WhatsApp Image 2025-11-09 at 18 38 57_aebe7872](https://github.com/user-attachments/assets/e041650a-845f-4b62-8d7e-b71e321bc29a)
+
+
 ### Fig.6 Add Analysis View Worstcase & Bestcase
 
 • Once “Best” and “Worst” Analysis views are created, assign them to Setup and Hold.
+
+![WhatsApp Image 2025-11-09 at 18 38 57_28050389](https://github.com/user-attachments/assets/2c4db60f-e3bc-4343-b4e4-45ebfdbab210)
+
 
 ### Fig.7 Add Setup Analysis View & Hold Analysis View
 
@@ -127,9 +142,15 @@ In the Import Design window click the save option to save the Default.globals fi
  
 • Select Floorplan → Specify Floorplan to modify/add concerned values to the above Factors. On adding/modifying the concerned values, the core area is also modified.
 
+![WhatsApp Image 2025-11-09 at 18 38 58_d418a372](https://github.com/user-attachments/assets/586c06df-bc9d-41ab-aada-93ac2be05ee5)
+
+
 ### Fig.9 Specify Floorplan 
 
 • The Yellow patch on the Left Bottom are the group of “Unassigned pins” which are to be  placed along the IO Boundary along with the Standard Cells [Gates].
+
+![WhatsApp Image 2025-11-09 at 18 40 45_ea958e12](https://github.com/user-attachments/assets/ea553ebd-01c6-4a12-bc76-6a9f1416070e)
+
 
 #### → Power Planning
 
@@ -171,9 +192,15 @@ Under Connect Global Net Connects, we create two pins, one for VDD and one for V
 
 • After the Special Route is complete, all the Standard Cell Rows turn to the Color coded for Metal 1 
 
+
+
+
 ### Fig.10 Power plan 
 
 The complete Power Planning process makes sure Every Standard Cell receives enough power to operate smoothly.
+
+![WhatsApp Image 2025-11-09 at 18 40 53_6da15de9](https://github.com/user-attachments/assets/75eb474b-618e-4b00-b73a-6af1c8e5eb81)
+
 
 #### → Placement 
 
@@ -186,6 +213,9 @@ The complete Power Planning process makes sure Every Standard Cell receives enou
 ### Fig.11 Placement of standard Cells 
 
 • You can toggle the Layer Visibility from the list on the Right. The List of Layers available are shown on the right under “Layer” tab with colour coding.
+
+![WhatsApp Image 2025-11-09 at 18 40 55_1dfdeeb0](https://github.com/user-attachments/assets/2fe41578-1e22-47c0-b788-51564fe3daf1)
+
 
 ## Result
 
